@@ -1,0 +1,8 @@
+{
+    "twilio_id" : "your twilio id",
+    "twilio_token" : "your twilio auth token",
+    "twilio_url" : "http://demo.twilio.com/docs/voice.xml",
+    "twilio_call_from" : "make the call from this number [twilio number]",
+    "twilio_call_to" : "call this numbeer",    
+    "uptimerobot_key" : "uptime robot api key"
+}
