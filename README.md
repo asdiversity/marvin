@@ -11,14 +11,15 @@ Marvin calls you when your servers are down. He uses [Uptime Robot](http://www.u
 
 * Install [node.js](http://nodejs.org/) and npm
 * Clone the repository
+* Create a config file ```cp config.json.dist config.json```
 * Configure the application by filling the config.js file as follows:
 
     {
-    "twilio_id" : "your twilio id",
-    "twilio_token" : "your twilio auth token",
-    "twilio_call_from" : "make the call from this number [twilio number]",
-    "twilio_call_to" : "call this numbeer",    
-    "uptimerobot_key" : "uptime robot api key"
+        "twilio_id" : "your twilio id",
+        "twilio_token" : "your twilio auth token",
+        "twilio_call_from" : "make the call from this number [twilio number]",
+        "twilio_call_to" : "call this numbeer",    
+        "uptimerobot_key" : "uptime robot api key"
     }
         
 * Run ```npm install```
