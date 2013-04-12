@@ -13,7 +13,7 @@ Marvin calls you when your servers are down. He uses [Uptime Robot](http://www.u
 * Clone the repository
 * Create a config file ```cp config.json.dist config.json```
 * Configure the application by filling the config.js file as follows:
-
+    ```
     {
         "twilio_id" : "your twilio id",
         "twilio_token" : "your twilio auth token",
@@ -21,6 +21,7 @@ Marvin calls you when your servers are down. He uses [Uptime Robot](http://www.u
         "twilio_call_to" : "call this numbeer",    
         "uptimerobot_key" : "uptime robot api key"
     }
+    ```
         
 * Run ```npm install```
 * Test the application by running ```npm install```
